@@ -1,0 +1,68 @@
+body {
+    background-color: rgba(77, 97, 161, 0.356);
+}
+
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MainTitle {
+    background-color: rgba(255, 255, 0, 0.84);
+    padding: 10px;
+    border-radius: 25%;
+    color: darkgoldenrod;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+#uList {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+#li {
+    margin: 10px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+
+}
+
+a:link {
+    text-decoration: underline;
+    color: brown;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    background-color: burlywood;
+}
+
+a:visited {
+    color: blue;
+}
+
+.iList {
+    list-style: none;
+}
+
+#VU {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+.img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 30%;
+    width: 15%;
+}
